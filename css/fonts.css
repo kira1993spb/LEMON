@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Josefin Sans Light';
+    src: url(../fonts/josefin-sans-light.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(../fonts/playfair-display.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'Open Sans Light Italic';
+    src: url(../fonts/open-sans-light-italic.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'Playfair Display Black';
+    src: url(../fonts/playfair-display-black.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url(../fonts/josefin-sans.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'Josefin Sans Bold';
+    src: url(../fonts/josefin-sans-bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'Josefin Sans SemiBold';
+    src: url(../fonts/josefin-sans-semibold.ttf) format("truetype");
+}

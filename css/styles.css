@@ -1,0 +1,1851 @@
+body {
+  max-width: 1366px;
+  width: 100%;
+  background-color: #eaeaea!important;
+  margin: 0 auto!important;
+}
+header {
+  max-width: 1125px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+header .logo {
+  display: flex;
+  justify-content: center;
+}
+header .header-nav {
+  display: flex;
+  max-width: 1125px;
+  width: 100%;
+  height: 130px;
+  background-color: #f8f8f8;
+  margin: 0 auto;
+  font-family: 'Josefin Sans Light', sans-serif;
+  margin-top: 120px;
+  position: relative;
+}
+header .header-nav span.hamburgerButtonLine {
+  display: none;
+  width: 19px;
+  height: 3px;
+  margin: 4px 0;
+  background: #000000;
+  z-index: 99;
+}
+header .header-nav #responsiveMenu {
+  display: none;
+}
+header .header-nav #responsiveMenu.expand {
+  display: block !important;
+}
+header .header-nav .search input {
+  margin-left: 75px;
+  margin-top: 48px;
+  background-color: transparent;
+  border: 2px solid #c2c2c2;
+  font-size: 12px;
+  max-width: 165px;
+  width: 100%;
+  height: 29px;
+  padding-left: 49px;
+}
+header .header-nav .search form {
+  position: relative;
+}
+header .header-nav .search form .i-search {
+  position: absolute;
+  font-size: 12px;
+  top: 57px;
+  left: 106px;
+}
+header .header-nav .logo-nav {
+  margin-left: 86px;
+  margin-top: 42px;
+}
+header .header-nav nav {
+  margin-left: 94px;
+  margin-top: 39px;
+}
+header .header-nav nav .dropdown.open a {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  color: #3d3d3d;
+  font-size: 15px!important;
+  margin-bottom: 3px;
+  font-family: 'Josefin Sans Light', sans-serif;
+  text-align: center;
+}
+header .header-nav nav .dropdown.open a:hover {
+  text-decoration: underline;
+  font-family: 'Josefin Sans Light', sans-serif;
+}
+header .header-nav nav .dropdown-toggle::after {
+  display: none;
+}
+header .header-nav nav ul {
+  margin-bottom: 0px;
+  margin-top: 11px;
+  font-size: 16px;
+  padding-left: 0px;
+}
+header .header-nav nav ul li:not(:first-child) {
+  margin-left: 22px;
+}
+header .header-nav nav ul li:not(:first-child):nth-child(4) {
+  margin-left: 16px;
+}
+header .header-nav nav a {
+  color: #3d3d3d;
+  text-decoration: none;
+}
+header ul {
+  list-style: none;
+  display: inline-flex;
+}
+header #custom-search-form {
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+}
+header #custom-search-form .search-query {
+  padding-right: 3px;
+  padding-right: 4px \9;
+  padding-left: 3px;
+  padding-left: 4px \9;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+header #custom-search-form button {
+  border: 0;
+  background: none;
+  /** belows styles are working good */
+  padding: 2px 5px;
+  margin-top: 2px;
+  position: relative;
+  left: -28px;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+header .search-query:focus + button {
+  z-index: 3;
+}
+main {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1125px;
+  width: 100%;
+}
+main .lemon {
+  margin-top: 85px;
+  display: flex;
+  height: 440px;
+  position: relative;
+}
+main .lemon .carousel.slide {
+  width: 100%;
+  margin-bottom: 0px;
+}
+main .lemon .carousel.slide .carousel-inner {
+  width: 100%;
+  position: absolute;
+  right: 0;
+}
+main .lemon .carousel.slide .carousel-inner .recipes-1 {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  max-width: 440px;
+  width: 100%;
+}
+main .lemon .carousel.slide .carousel-inner .recipes-1 img {
+  margin-left: 86px;
+  margin-top: 42px;
+}
+main .lemon .carousel.slide .carousel-inner .recipes-1 h1 {
+  font-family: 'Playfair Display', arial;
+  color: #921026;
+  font-size: 24px;
+  margin-left: 75px;
+  margin-top: 31px;
+}
+main .lemon .carousel.slide .carousel-inner .recipes-1 p {
+  font-family: 'Josefin Sans Light', sans-serif;
+  font-size: 14px;
+  margin-left: 87px;
+  margin-top: 22px;
+  line-height: 20px;
+}
+main .lemon .carousel.slide .carousel-inner .recipes-1 button {
+  font-family: 'Josefin Sans Light', sans-serif;
+  display: inline-flex;
+  margin-top: 28px;
+  margin-left: 97px;
+  font-size: 12px;
+  color: #000000;
+  border: 1px solid #c2c2c2;
+}
+main .lemon .carousel.slide .carousel-inner .w-100 {
+  height: 440px;
+}
+main .three-cards {
+  display: flex;
+  margin-top: 85px;
+  height: 375px;
+  max-width: 1125px;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+main .dish-1 img {
+  margin-left: 49px;
+  margin-top: 30px;
+  max-width: 313px;
+  width: 100%;
+  height: 210px;
+}
+main .dish-1 p {
+  margin-left: 45px;
+  margin-top: 11px;
+  margin-bottom: 0px;
+  font-family: 'Josefin Sans Light', sans-serif;
+}
+main .dish-1 ul {
+  display: flex;
+  font-family: 'Open Sans Light Italic', sans-serif;
+  padding: 0px;
+  margin-left: 47px;
+  margin-top: 5px;
+}
+main .dish-1 ul li {
+  list-style: none;
+  font-size: 12px;
+  color: #000000;
+}
+main .dish-1 ul li:first-child::after {
+  content: "";
+  border: 1px solid #6f6f6f;
+  margin-left: 4px;
+}
+main .dish-1 ul li:nth-child(3) {
+  margin-left: 4px;
+}
+main .dish-1 ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 12px;
+  margin-left: 6px;
+}
+main .dish-2 img {
+  margin-left: 49px;
+  margin-top: 30px;
+  max-width: 313px;
+  width: 100%;
+  height: 210px;
+}
+main .dish-2 p {
+  margin-left: 45px;
+  margin-top: 11px;
+  margin-bottom: 0px;
+  font-family: 'Josefin Sans Light', sans-serif;
+}
+main .dish-2 ul {
+  display: flex;
+  font-family: 'Open Sans Light Italic', arial;
+  padding: 0px;
+  margin-left: 47px;
+  margin-top: 5px;
+}
+main .dish-2 ul li {
+  list-style: none;
+  font-size: 12px;
+  color: #000000;
+}
+main .dish-2 ul li:first-child::after {
+  content: "";
+  border: 1px solid #6f6f6f;
+  margin-left: 4px;
+}
+main .dish-2 ul li:nth-child(3) {
+  margin-left: 4px;
+}
+main .dish-2 ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 12px;
+  margin-left: 6px;
+}
+main .dish-3 img {
+  margin-left: 49px;
+  margin-top: 30px;
+  max-width: 313px;
+  width: 100%;
+  height: 210px;
+}
+main .dish-3 p {
+  margin-left: 45px;
+  margin-top: 11px;
+  margin-bottom: 0px;
+  max-width: 300px;
+  width: 100%;
+  font-family: 'Josefin Sans Light', sans-serif;
+}
+main .dish-3 ul {
+  display: flex;
+  font-family: 'Open Sans Light Italic', arial;
+  padding: 0px;
+  margin-left: 47px;
+  margin-top: 5px;
+}
+main .dish-3 ul li {
+  list-style: none;
+  font-size: 12px;
+  color: #000000;
+}
+main .dish-3 ul li:first-child::after {
+  content: "";
+  border: 1px solid #6f6f6f;
+  margin-left: 4px;
+}
+main .dish-3 ul li:nth-child(3) {
+  margin-left: 4px;
+}
+main .dish-3 ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 12px;
+  margin-left: 6px;
+}
+main .recipes-2 {
+  height: 440px;
+  background-color: #ffffff;
+  margin-top: 75px;
+  display: flex;
+  position: relative;
+  max-width: 1125px;
+  width: 100%;
+}
+main .recipes-2 .i-printing {
+  position: absolute;
+  background-color: #6f6f75;
+  font-size: 60px;
+  left: 440px;
+}
+main .recipes-2 .i-printing::before {
+  color: #ffffff;
+}
+main .recipes-2 img {
+  max-width: 525px;
+  width: 100%;
+}
+main .recipes-2 h2 {
+  font-family: 'Playfair Display Black', sans-serif;
+  font-size: 32px;
+  margin-left: 33px;
+  margin-top: 22px;
+  color: #055555;
+}
+main .recipes-2 .recipes-text {
+  overflow-y: scroll;
+  max-width: 532px;
+  width: 100%;
+}
+main .recipes-2 .recipes-text span {
+  font-family: 'Josefin Sans Light', sans-serif;
+  font-size: 18px;
+  margin-top: 13px;
+  display: inline-flex;
+  position: relative;
+}
+main .recipes-2 .recipes-text span:first-of-type {
+  margin-left: 58px;
+}
+main .recipes-2 .recipes-text span:first-of-type .i-time {
+  position: absolute;
+  right: 55px;
+  font-size: 15px;
+  top: 6px;
+}
+main .recipes-2 .recipes-text span:last-of-type {
+  position: relative;
+  margin-left: 45px;
+}
+main .recipes-2 .recipes-text span:last-of-type .i-signal {
+  position: absolute;
+  right: 46px;
+  font-size: 25px;
+  top: -3px;
+}
+main .recipes-2 .recipes-text button {
+  font-family: 'Josefin Sans Light', sans-serif;
+  background-color: transparent;
+  border: 1px solid #c2c2c2;
+  font-size: 12px;
+  margin-left: 240px;
+}
+main .recipes-2 .recipes-text .composition {
+  max-width: 500px;
+  width: 100%;
+}
+main .recipes-2 .recipes-text .composition p {
+  line-height: 14px;
+  margin-left: 30px;
+}
+main .recipes-2 .recipes-text .composition p:nth-of-type(1) {
+  margin-top: 23px;
+  margin-left: 30px;
+  margin-bottom: 14px;
+}
+main .recipes-2 .recipes-text .composition h3 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 33px;
+  margin-top: 29px;
+}
+main .recipes-2 .recipes-text .description p {
+  font-family: 'Josefin Sans Light', sans-serif;
+  font-size: 16px;
+  margin-bottom: 0px;
+  margin-left: 32px;
+  margin-top: 17px;
+  max-width: 500px;
+  width: 100%;
+  font-weight: bold;
+}
+main .Author {
+  display: flex;
+}
+main .Author .feedback-1 {
+  max-width: 505px;
+  width: 100%;
+  height: 520px;
+  margin-top: 136px;
+  position: relative;
+  display: flex;
+  margin-left: 6px;
+  background-color: #ffffff;
+}
+main .Author h3 {
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #000000;
+  font-size: 20px;
+  left: 32px;
+  top: 19px;
+}
+main .Author h3::before {
+  content: "";
+  border-bottom: 3px solid #dddddd;
+  position: absolute;
+  width: 439px;
+  top: 30px;
+  left: -11px;
+}
+main .Author img {
+  max-width: 505px;
+  width: 100%;
+  height: 518px;
+}
+main .Author button {
+  font-family: 'Josefin Sans Light', sans-serif;
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid #c2c2c2;
+  top: 440px;
+  left: 195px;
+  max-width: 105px;
+  width: 100%;
+}
+main .feedback-2 {
+  max-width: 505px;
+  width: 100%;
+  height: 520px;
+  margin-top: 136px;
+  position: relative;
+  display: flex;
+  margin-left: 96px;
+  background-color: #ffffff;
+}
+main .feedback-2 img {
+  margin-left: 19px;
+  max-width: 131px;
+  width: 100%;
+  height: 133px;
+  margin-top: 74px;
+}
+main .feedback-2 .feedback-text {
+  position: relative;
+}
+main .feedback-2 .feedback-text h3 {
+  font-family: 'Josefin Sans Bold', sans-serif;
+  position: static;
+  font-size: 25px;
+  margin-top: 83px;
+  margin-left: 18px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+main .feedback-2 .feedback-text h3::before {
+  display: none;
+}
+main .feedback-2 .feedback-text img {
+  position: absolute;
+  max-width: 167px;
+  width: 100%;
+  left: 130px;
+  height: 66px;
+  top: 349px;
+}
+main .feedback-2 .feedback-text p:nth-of-type(1) {
+  font-family: 'Josefin Sans Light', sans-serif;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+main .feedback-2 .feedback-text .icons {
+  position: relative;
+  display: flex;
+}
+main .feedback-2 .feedback-text .icons ul {
+  display: flex;
+  padding: 0;
+}
+main .feedback-2 .feedback-text .icons ul li {
+  list-style: none;
+}
+main .feedback-2 .feedback-text .icons ul li a {
+  font-size: 19px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+main .feedback-2 .feedback-text .icons::before {
+  content: "";
+  border-bottom: 3px solid #dddddd;
+  position: absolute;
+  width: 293px;
+  top: 42px;
+  left: -3px;
+}
+main .feedback-2 .feedback-text h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 37px;
+  margin-left: 20px;
+  font-size: 19px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+main .feedback-2 .feedback-text p:last-of-type {
+  font-family: 'Josefin Sans Light', sans-serif;
+  font-size: 13px;
+  max-width: 300px;
+  width: 100%;
+  margin-left: 19px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+main .blocks {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .blocks .chi-chi {
+  max-width: 288px;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin-left: 43px;
+  margin-top: 80px;
+  position: relative;
+}
+main .blocks .chi-chi h3 {
+  font-family: 'Playfair Display Black', sans-serif;
+  color: #055555;
+  font-size: 22px;
+  margin-left: 45px;
+  margin-top: 23px;
+  position: relative;
+}
+main .blocks .chi-chi h3::before {
+  content: "";
+  border-bottom: 3px solid #dddddd;
+  position: absolute;
+  width: 252px;
+  top: 38px;
+  left: -30px;
+}
+main .blocks .chi-chi .wrapper {
+  display: flex;
+  margin-left: 22px;
+  margin-top: 16px;
+  line-height: 21px;
+}
+main .blocks .chi-chi .wrapper img {
+  margin-bottom: 22px;
+}
+main .blocks .chi-chi .wrapper .wrap {
+  display: flex;
+  flex-direction: column;
+  margin-left: 22px;
+}
+main .blocks .chi-chi .wrapper .wrap span:nth-child(1) {
+  font-family: 'Josefin Sans Light', sans-serif;
+}
+main .blocks .chi-chi .wrapper .wrap span:nth-child(2) {
+  font-family: 'Josefin Sans Bold', sans-serif;
+  font-size: 16px;
+}
+main .blocks .chi-chi .wrapper .wrap ul {
+  font-size: 12px;
+  font-family: 'Open Sans Light Italic', sans-serif;
+  list-style: none;
+  display: flex;
+  padding-left: 0px;
+}
+main .blocks .chi-chi .wrapper .wrap ul li:first-child::after {
+  content: "";
+  border: 1px solid #6f6f6f;
+  margin-left: 4px;
+}
+main .blocks .chi-chi .wrapper .wrap ul li:nth-child(2) {
+  margin-left: 11px;
+}
+main .blocks .chi-chi .wrapper .wrap ul li:last-child {
+  margin-left: 11px;
+}
+main .blocks .chi-chi .carousel-inner {
+  max-width: 297px;
+  width: 100%;
+  height: 197px;
+}
+main .blocks .chi-chi .carousel-inner .carousel.slide {
+  height: 197px;
+}
+main .blocks .chi-chi .carousel-inner .carousel.slide .carousel-item {
+  max-width: 297px;
+  width: 100%;
+  height: 197px;
+}
+main .blocks .chi-chi .carousel-inner .carousel.slide .carousel-item img {
+  height: 197px;
+  max-width: 297px;
+  width: 100%;
+}
+main .blocks .recipe {
+  background-color: #ffffff;
+  max-width: 290px;
+  width: 100%;
+  height: 430px;
+  margin-left: 105px;
+  margin-top: 81px;
+  position: relative;
+}
+main .blocks .recipe .icons {
+  display: flex;
+  margin-top: 18px;
+}
+main .blocks .recipe .icons ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin-left: 104px;
+  margin-top: 8px;
+}
+main .blocks .recipe .icons ul li {
+  font-size: 15px;
+}
+main .blocks .recipe .icons ul li:nth-child(2) {
+  margin-left: 13px;
+}
+main .blocks .recipe .icons ul li:nth-child(3) {
+  margin-left: 10px;
+}
+main .blocks .recipe .icons ul li:last-child {
+  margin-left: 10px;
+}
+main .blocks .recipe .icons p {
+  font-family: 'Josefin Sans Bold', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  margin-left: 8px;
+  font-weight: bold;
+  position: relative;
+}
+main .blocks .recipe .icons p::before {
+  content: "";
+  border-bottom: 2px solid #dddddd;
+  position: absolute;
+  width: 252px;
+  top: 36px;
+  left: 0px;
+}
+main .blocks .recipe ul {
+  list-style: none;
+  display: flex;
+}
+main .blocks .recipe ul li {
+  font-size: 13px;
+}
+main .blocks .recipe ul li:nth-child(2) {
+  margin-left: 35px;
+}
+main .blocks .recipe ul li:nth-child(3) {
+  margin-left: 26px;
+}
+main .blocks .recipe ul li a {
+  color: #999999;
+}
+main .blocks .recipe ul li a:hover {
+  color: #0f0f0f;
+  font-weight: bold;
+}
+main .blocks .other-recipe {
+  margin-left: 11px;
+  margin-top: 27px;
+}
+main .blocks .other-recipe figure {
+  display: flex;
+  max-width: 270px;
+  width: 100%;
+  margin-bottom: 0px;
+}
+main .blocks .other-recipe figure:nth-child(2) {
+  margin-top: 31px;
+}
+main .blocks .other-recipe figure:nth-child(3) {
+  margin-top: 40px;
+}
+main .blocks .other-recipe figure img {
+  max-width: 49px;
+  width: 100%;
+  height: 45px;
+}
+main .blocks .other-recipe figure figcaption {
+  font-size: 12px;
+  margin-left: 15px;
+  line-height: 18px;
+}
+main .blocks .other-recipe figure figcaption p:first-of-type {
+  font-family: 'Josefin Sans Bold', sans-serif;
+  margin-top: -5px;
+  margin-bottom: 0px;
+}
+main .blocks .other-recipe figure figcaption p:last-of-type {
+  font-family: 'Josefin Sans SemiBold', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+main .blocks .other-recipe figure figcaption span {
+  font-family: 'Josefin Sans Light', sans-serif;
+}
+main .blocks .other-recipe a {
+  font-family: 'Josefin Sans Light', sans-serif;
+  display: inline-flex;
+  max-width: 104px;
+  width: 100%;
+  margin-left: 144px;
+  padding-left: 16px;
+  padding-top: 7px;
+  height: 30px;
+  margin-top: 30px;
+  font-size: 12px;
+  color: #000000;
+  border: 1px solid #c2c2c2;
+}
+main .blocks .popular-now {
+  height: 350px;
+  margin-left: 60px;
+  margin-top: 80px;
+  max-width: 290px;
+  width: 100%;
+  background-image: url(../images/coffee.png);
+}
+main .blocks .popular-now h3 {
+  font-family: 'Playfair Display Black', sans-serif;
+  color: #981e32;
+  font-size: 32px;
+  margin-left: 20px;
+  margin-top: 18px;
+  position: relative;
+}
+main .blocks .popular-now h3::before {
+  content: "";
+  border-bottom: 3px solid #ffffff;
+  position: absolute;
+  width: 252px;
+  top: 51px;
+  left: -5px;
+}
+main .blocks .popular-now p:first-of-type {
+  font-family: 'Josefin Sans Bold', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  margin-left: 14px;
+  margin-top: 31px;
+  margin-bottom: 0px;
+}
+main .blocks .popular-now p:last-of-type {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  max-width: 270px;
+  width: 100%;
+  margin-left: 19px;
+  margin-bottom: 0px;
+}
+main .blocks .popular-now .wrap {
+  display: flex;
+}
+main .blocks .popular-now .wrap a:first-of-type {
+  font-family: 'Josefin Sans Light', sans-serif;
+  display: inline-flex;
+  width: 104px;
+  width: 100%;
+  margin-left: 144px;
+  margin-left: 20px;
+  margin-top: 0px;
+  height: 30px;
+  font-size: 12px;
+  color: #000000;
+  border: 1px solid #c2c2c2;
+  padding-left: 11px;
+  padding-top: 8px;
+  height: 28px;
+  margin-top: 2px;
+  text-decoration: none;
+}
+main .blocks .popular-now .wrap ul {
+  display: flex;
+  font-size: 12px;
+  padding: 0px;
+  margin-left: 13px;
+  margin-top: 9px;
+}
+main .blocks .popular-now .wrap ul li {
+  font-family: 'Open Sans Light Italic', sans-serif;
+  list-style: none;
+}
+main .blocks .popular-now .wrap ul li:first-child::after {
+  content: "";
+  border: 1px solid #6f6f6f;
+  margin-left: 4px;
+}
+main .blocks .popular-now .wrap ul li:nth-child(2) {
+  margin-left: 8px;
+}
+main .blocks .popular-now .wrap ul li:nth-child(3) {
+  margin-left: 10px;
+}
+main .blocks .popular-now .wrap ul li a {
+  border: none!important;
+  width: auto!important;
+  width: 100%;
+  padding: 0!important;
+  margin: 0!important;
+  font-family: 'Open Sans Light Italic', sans-serif !important;
+  line-height: 12px!important;
+}
+main .blocks .target {
+  max-width: 288px;
+  width: 100%;
+  height: 470px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+  margin-bottom: 0px;
+  margin-top: -34px;
+}
+main .blocks .target .icons {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 12px;
+}
+main .blocks .target .icons p {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Josefin Sans', sans-serif !important;
+  position: relative;
+}
+main .blocks .target .icons p::before {
+  content: "";
+  border-bottom: 2px solid #dddddd;
+  position: absolute;
+  width: 252px;
+  top: 41px;
+  left: 0px;
+}
+main .blocks .target .icons ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-left: 109px;
+  margin-top: 8px;
+}
+main .blocks .target .icons ul li:nth-child(2) {
+  margin-left: 13px;
+}
+main .blocks .target .icons ul li:nth-child(3) {
+  margin-left: 10px;
+}
+main .blocks .target .icons ul li:last-child {
+  margin-left: 10px;
+}
+main .blocks .target h3 {
+  font-family: 'Playfair Display Black', sans-serif;
+  font-size: 21px;
+  color: #055555;
+  margin-left: 28px;
+}
+main .blocks .target figure {
+  display: flex;
+  margin-bottom: 0px;
+  height: 107px;
+}
+main .blocks .target figure img {
+  max-width: 70px;
+  width: 100%;
+  height: 60px;
+  margin-left: 23px;
+  margin-top: 30px;
+}
+main .blocks .target figure figcaption {
+  font-family: 'Josefin Sans Light', sans-serif;
+  display: flex;
+  max-width: 180px;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 27px;
+  margin-left: 25px;
+  color: #aaaaaa;
+}
+main .blocks .target figure figcaption p {
+  margin-bottom: 0px;
+}
+main .blocks .tags {
+  max-width: 292px;
+  width: 100%;
+  height: 160px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-left: 96px;
+  margin-top: 39px;
+}
+main .blocks .tags h3 {
+  margin-top: 21px;
+  font-size: 19px;
+  margin-left: 18px;
+  position: relative;
+}
+main .blocks .tags h3::before {
+  content: "";
+  border-bottom: 2px solid #dddddd;
+  position: absolute;
+  width: 252px;
+  top: 36px;
+  left: 0px;
+}
+main .blocks .tags ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+  margin-left: 22px;
+  margin-bottom: 0px;
+  margin-top: 7px;
+  line-height: 27px;
+}
+main .blocks .tags ul li {
+  margin-left: 10px;
+}
+main .blocks .tags ul li a {
+  color: #1f1f1f;
+}
+main .blocks .timeline {
+  max-width: 292px;
+  width: 100%;
+  height: 430px;
+  background-color: #ffffff;
+  margin-left: 58px;
+  margin-bottom: 0px;
+  margin-top: -39px;
+}
+main .blocks .timeline .icons + p:first-of-type {
+  font-size: 23px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  font-family: 'Playfair Display Black', sans-serif;
+  color: #055555;
+}
+main .blocks .timeline .icons {
+  display: flex;
+  margin-top: 35px;
+}
+main .blocks .timeline .icons h3 {
+  font-size: 18px;
+  margin-left: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
+  position: relative;
+}
+main .blocks .timeline .icons h3::before {
+  content: "";
+  border-bottom: 2px solid #dddddd;
+  position: absolute;
+  width: 252px;
+  top: 36px;
+  left: 0px;
+}
+main .blocks .timeline .icons ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin-left: 90px;
+}
+main .blocks .timeline .icons ul li:nth-child(2) {
+  margin-left: 13px;
+}
+main .blocks .timeline .icons ul li:nth-child(3) {
+  margin-left: 10px;
+}
+main .blocks .timeline .icons ul li:last-child {
+  margin-left: 10px;
+}
+main .blocks .timeline .line {
+  position: relative;
+}
+main .blocks .timeline .line div:nth-child(1) {
+  transform: rotate(-90deg);
+  margin-right: 177px;
+  margin-top: 129px;
+}
+main .blocks .timeline .line div:nth-child(1) span {
+  position: absolute;
+}
+main .blocks .timeline .line div:nth-child(1) span:nth-child(1) {
+  top: -14px;
+  font-size: 20px;
+  right: 81px;
+}
+main .blocks .timeline .line div:nth-child(1) span:nth-child(1)::after {
+  position: absolute;
+  content: "";
+  border: 5px solid #87d0c5;
+  top: 28px;
+  width: 68px;
+  left: 0;
+}
+main .blocks .timeline .line div:nth-child(1) span:nth-child(2) {
+  left: 62px;
+  top: 7px;
+  font-size: 15px;
+}
+main .blocks .timeline .line div:nth-child(2) {
+  transform: rotate(-90deg);
+}
+main .blocks .timeline .line div:nth-child(2) span {
+  position: absolute;
+}
+main .blocks .timeline .line div:nth-child(2) span:nth-child(1) {
+  left: 76px;
+  top: -15px;
+  font-size: 20px;
+}
+main .blocks .timeline .line div:nth-child(2) span:nth-child(1)::after {
+  position: absolute;
+  content: "";
+  border: 5px solid #0d5959;
+  top: 28px;
+  width: 100px;
+  left: 2px;
+}
+main .blocks .timeline .line div:nth-child(2) span:nth-child(2) {
+  left: 180px;
+  top: 4px;
+}
+main .blocks .timeline .line div:nth-child(3) {
+  transform: rotate(-90deg);
+}
+main .blocks .timeline .line div:nth-child(3) span {
+  position: absolute;
+}
+main .blocks .timeline .line div:nth-child(3) span:nth-child(1) {
+  left: 78px;
+  top: 70px;
+  font-size: 20px;
+}
+main .blocks .timeline .line div:nth-child(3) span:nth-child(1)::after {
+  position: absolute;
+  content: "";
+  border: 5px solid #b50051;
+  top: 29px;
+  width: 131px;
+  left: 0;
+}
+main .blocks .timeline .line div:nth-child(3) span:nth-child(2) {
+  left: 215px;
+  top: 92px;
+}
+main .blocks .timeline .line p {
+  display: inline-flex;
+  margin-top: 94px;
+  max-width: 249px;
+  width: 100%;
+  margin-left: 43px;
+  font-size: 13px;
+  text-align: center;
+  padding-right: 34px;
+}
+main .blocks .calendar {
+  max-width: 292px;
+  width: 100%;
+}
+main .blocks .calendar h3 {
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 0px;
+  padding-top: 23px;
+  padding-left: 19px;
+  margin-bottom: 13px;
+  position: relative;
+}
+main .blocks .calendar h3::before {
+  content: "";
+  border-bottom: 2px solid #dddddd;
+  position: absolute;
+  width: 252px;
+  top: 59px;
+  left: 15px;
+}
+main .blocks .calendar html,
+main .blocks .calendar body {
+  height: 100%;
+}
+main .blocks .calendar body {
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: 'Josefin Sans Light', sans-serif;
+  background: #28283b;
+  background-image: linear-gradient(#28283b 0%, #0f0f17 100%);
+  color: #444;
+}
+main .blocks .calendar *,
+main .blocks .calendar *:before,
+main .blocks .calendar *:after {
+  box-sizing: border-box;
+}
+main .blocks .calendar .group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+main .blocks .calendar img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: baseline;
+}
+main .blocks .calendar a {
+  text-decoration: none;
+}
+main .blocks .calendar .calendar-wrapper {
+  max-width: 292px;
+  width: 100%;
+  background: #fff;
+  margin-left: 429px;
+  margin-top: -190px;
+  position: relative;
+  height: 400px;
+  font-weight: bold;
+}
+main .blocks .calendar table {
+  clear: both;
+  width: 100%;
+  border-radius: 3px;
+  border-collapse: collapse;
+}
+main .blocks .calendar td {
+  height: 41px;
+  text-align: center;
+  vertical-align: middle;
+  width: 14.28571429%;
+  font-family: 'Josefin Sans Light', sans-serif;
+}
+main .blocks .calendar td.today {
+  font-weight: 700;
+  color: #28283b;
+  font-size: 1.5em;
+  font-family: 'Josefin Sans Light', sans-serif;
+}
+main .blocks .calendar thead td {
+  border: none;
+  font-size: 18px;
+  font-family: 'Josefin Sans Light', sans-serif;
+}
+main .blocks .calendar #btnPrev,
+main .blocks .calendar #btnNext {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: 'Josefin Sans Light', sans-serif;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  position: absolute;
+}
+main .blocks .calendar #btnPrev:hover,
+main .blocks .calendar #btnNext:hover {
+  color: #28283b;
+  font-weight: bold;
+  position: absolute;
+}
+main .blocks .calendar #btnPrev {
+  left: 20px;
+  top: 70px;
+}
+main .blocks .calendar #btnNext {
+  left: 243px;
+  top: 70px;
+}
+main .blocks .calendar tbody {
+  font-size: 14px;
+}
+main .blocks .calendar #divCal {
+  padding-left: 23px;
+  padding-right: 23px;
+}
+main .login-sign {
+  display: flex;
+}
+main .login-sign .login {
+  margin-top: 68px;
+  margin-left: 180px;
+  max-width: 330px;
+  height: 406px;
+  background-color: #ffffff;
+  width: 100%;
+  position: relative;
+}
+main .login-sign .login h3 {
+  padding-top: 14px;
+  font-size: 19px;
+  margin-left: 32px;
+  font-style: italic;
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+}
+main .login-sign .login h3::before {
+  content: "";
+  border-bottom: 2px solid #dddddd;
+  position: absolute;
+  width: 266px;
+  top: 51px;
+  left: -4px;
+}
+main .login-sign .login p {
+  margin-top: 32px;
+  margin-left: 31px;
+  font-family: 'Josefin Sans Light', sans-serif;
+}
+main .login-sign .login .form-control {
+  width: 80%;
+  margin-left: 33px;
+  margin-top: 24px;
+}
+main .login-sign .login label {
+  margin-top: 12px;
+  font-size: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+main .login-sign .login input {
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 0px;
+  padding-left: 20px;
+  padding-top: 0px;
+}
+main .login-sign .login .checkbox {
+  margin-left: 31px;
+}
+main .login-sign .login p:nth-of-type(2) {
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  font-size: 12px;
+  left: 149px;
+  top: 193px;
+}
+main .login-sign .login button {
+  font-family: 'Josefin Sans Light', sans-serif;
+  background-color: transparent;
+  border: 1px solid #c2c2c2;
+  display: flex;
+  margin-left: 114px;
+  width: 100%;
+  max-width: 104px;
+  padding-left: 31px;
+  font-size: 12px;
+  height: 27px;
+  padding-top: 5px;
+  margin-top: 22px;
+}
+main .login-sign .login ul {
+  display: flex;
+  list-style: none;
+  font-size: 22px;
+  margin-left: 131px;
+  margin-top: 18px;
+  padding-left: 0px;
+  margin-bottom: 3px;
+}
+main .login-sign .login ul li:last-child {
+  margin-left: 20px;
+}
+main .login-sign .login ul a {
+  margin-left: 0px!important;
+}
+main .login-sign .login a:last-child {
+  color: #a8a8a8;
+  margin-left: 66px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+main .login-sign .sign-in {
+  max-width: 330px;
+  width: 100%;
+  height: 535px;
+  background-color: #ffffff;
+  margin-left: 85px;
+  margin-top: 66px;
+}
+main .login-sign .sign-in h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  margin-left: 31px;
+  margin-top: 15px;
+  font-style: italic;
+  position: relative;
+}
+main .login-sign .sign-in h3::before {
+  content: "";
+  border-bottom: 2px solid #dddddd;
+  position: absolute;
+  width: 266px;
+  top: 40px;
+  left: -4px;
+}
+main .login-sign .sign-in p:nth-of-type(1) {
+  margin-left: 31px;
+  margin-top: 33px;
+  font-family: 'Josefin Sans Light', sans-serif;
+  margin-bottom: 0px;
+}
+main .login-sign .sign-in p:nth-of-type(2) {
+  max-width: 273px;
+  font-size: 13px;
+  font-style: italic;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-left: 38px;
+  margin-top: 15px;
+  color: #a8a8a8;
+}
+main .login-sign .sign-in .login-password {
+  max-width: 266px;
+  width: 100%;
+  margin-left: 33px;
+}
+main .login-sign .sign-in input {
+  font-style: italic;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-left: 18px;
+  border-radius: 0px;
+}
+main .login-sign .sign-in input:nth-child(2) {
+  margin-bottom: 15px;
+}
+main .login-sign .sign-in input:nth-child(3) {
+  margin-bottom: 19px;
+}
+main .login-sign .sign-in input:nth-child(4) {
+  margin-bottom: 17px;
+}
+main .login-sign .sign-in button {
+  font-family: 'Josefin Sans Light', sans-serif;
+  border: 1px solid #c2c2c2;
+  background-color: transparent;
+  display: flex;
+  width: 100%;
+  max-width: 104px;
+  margin-top: 28px;
+  padding-left: 29px;
+  font-size: 12px;
+  height: 27px;
+  padding-top: 5px;
+  margin-left: 114px;
+}
+main .login-sign .sign-in ul {
+  display: flex;
+  list-style: none;
+  margin-left: 131px;
+  margin-top: 18px;
+  padding-left: 0px;
+  margin-bottom: 3px;
+}
+main .login-sign .sign-in ul li:last-child {
+  margin-left: 20px;
+}
+main .login-sign .sign-in ul a {
+  margin-left: 0px!important;
+  font-size: 22px!important;
+}
+main .login-sign .sign-in ul:last-child a {
+  color: #a8a8a8;
+  margin-left: 66px;
+  left: 642px;
+}
+main .login-sign .sign-in a:last-child {
+  margin-left: 36px;
+  font-size: 13px;
+}
+main .post-comment {
+  max-width: 840px;
+  width: 100%;
+  margin: 125px auto;
+}
+main .post-comment .post {
+  height: 187px;
+  background-color: #ffffff;
+  position: relative;
+}
+main .post-comment .post h3 {
+  font-size: 24px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 36px;
+  margin-top: 146px;
+}
+main .post-comment .post .social-network {
+  position: absolute;
+  left: 643px;
+  top: 11px;
+}
+main .post-comment .post .social-network a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  color: #0f0f0f;
+}
+main .post-comment .post .social-network a:nth-child(1)::after {
+  content: "|";
+  margin-left: 14px;
+}
+main .post-comment .post .social-network a:nth-child(2) {
+  margin-left: 8px;
+}
+main .post-comment .post .wrap {
+  height: 85px;
+  max-width: 750px;
+  width: 100%;
+  background-color: #f6f6f6;
+  margin-left: 44px;
+  margin-top: 21px;
+}
+main .post-comment .post .wrap img {
+  margin-left: 15px;
+}
+main .post-comment .post .wrap input {
+  max-width: 495px;
+  width: 100%;
+  margin-left: 61px;
+  margin-top: 24px;
+  height: 38px;
+}
+main .post-comment .post .wrap button {
+  height: 38px;
+  width: 86px;
+  width: 100%;
+  background-color: #383737;
+  color: #ffffff;
+  border: none;
+}
+main .post-comment .comment {
+  max-width: 840px;
+  height: 765px;
+  background-color: #ffffff;
+  margin-top: 36px;
+  position: relative;
+  width: 100%;
+}
+main .post-comment .comment h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
+  margin-left: 37px;
+  font-size: 26px;
+  margin-top: 46px;
+  padding-top: 13px;
+  font-weight: bold;
+  position: relative;
+}
+main .post-comment .comment h3::before {
+  content: "";
+  border-bottom: 2px solid #dddddd;
+  position: absolute;
+  width: 742px;
+  top: 57px;
+  left: 5px;
+}
+main .post-comment .comment-1 img {
+  margin-left: 132px;
+  margin-top: 7px;
+}
+main .post-comment .comment-1 img + p {
+  margin-left: 128px;
+  margin-top: 13px;
+  font-family: 'Josefin Sans bold', sans-serif;
+  position: relative;
+}
+main .post-comment .comment-1 img + p::before {
+  content: "";
+  border-bottom: 2px solid #dddddd;
+  position: absolute;
+  width: 650px;
+  top: 45px;
+  left: 0px;
+}
+main .post-comment .comment-1 .wrap {
+  display: flex;
+}
+main .post-comment .comment-1 .wrap img {
+  margin-left: 50px;
+  margin-top: 9px;
+  height: 58px;
+}
+main .post-comment .comment-1 .wrap .title {
+  margin-left: 20px;
+}
+main .post-comment .comment-1 .wrap .title p {
+  font-size: 16px;
+  font-family: 'Josefin Sans bold', sans-serif;
+  margin-bottom: 0px;
+  font-weight: bold;
+  line-height: 22px;
+}
+main .post-comment .comment-1 .wrap .title p a {
+  font-size: 13px;
+  margin-left: 7px;
+}
+main .post-comment .comment-1 .wrap .title a {
+  font-size: 13px;
+  color: #b0c9c9;
+  text-decoration: underline;
+}
+main .post-comment .comment-1 .wrap .icons {
+  margin-left: 340px;
+}
+main .post-comment .comment-1 .wrap .icons ul {
+  margin-top: 20px;
+  display: flex;
+  list-style: none;
+}
+main .post-comment .comment-1 .wrap .icons ul li {
+  font-size: 12px;
+  font-family: 'Josefin Sans bold', sans-serif;
+  margin-bottom: 0px;
+}
+main .post-comment .comment-1 .wrap .icons ul li:first-child {
+  margin-left: 8px;
+  margin-top: 7px;
+  font-weight: bold;
+}
+main .post-comment .comment-1 .wrap .icons ul li:last-child {
+  margin-left: 11px;
+  margin-top: 7px;
+}
+main .post-comment .comment-1 .wrap .icons ul li .i-share {
+  margin-left: 7px;
+}
+main .post-comment .comment-2 {
+  display: flex;
+}
+main .post-comment .comment-2 .title + p {
+  font-family: 'Josefin Sans SemiBold', sans-serif;
+  font-weight: bold;
+  margin-left: 23px;
+}
+main .post-comment .comment-2 img {
+  margin-left: 122px;
+  margin-top: 25px;
+  height: 58px;
+}
+main .post-comment .comment-2 .wrap {
+  position: relative;
+}
+main .post-comment .comment-2 .wrap p:last-of-type + a {
+  font-family: 'Josefin Sans Light', sans-serif;
+  color: #9a9a9a;
+  margin-left: 225px;
+  position: relative;
+}
+main .post-comment .comment-2 .wrap .title {
+  margin-left: 20px;
+  margin-top: 23px;
+}
+main .post-comment .comment-2 .wrap .title p {
+  font-size: 16px;
+  font-family: 'Josefin Sans bold', sans-serif;
+  margin-bottom: 0px;
+  font-weight: bold;
+  line-height: 22px;
+}
+main .post-comment .comment-2 .wrap .title p a {
+  font-size: 13px;
+  margin-left: 7px;
+}
+main .post-comment .comment-2 .wrap .title p:last-of-type {
+  position: relative;
+}
+main .post-comment .comment-2 .wrap .title p:last-of-type::before {
+  content: "";
+  border-bottom: 2px solid #dddddd;
+  position: absolute;
+  width: 740px;
+  top: 125px;
+  left: -157px;
+}
+main .post-comment .comment-2 .wrap .title a {
+  font-size: 13px;
+  color: #b0c9c9!important;
+  text-decoration: underline;
+  margin-left: 0!important;
+  position: relative;
+}
+main .post-comment .comment-2 .wrap .icons {
+  left: 476px;
+  top: 22px;
+  position: absolute;
+}
+main .post-comment .comment-2 .wrap .icons ul {
+  margin-top: 20px;
+  display: flex;
+  list-style: none;
+}
+main .post-comment .comment-2 .wrap .icons ul li {
+  font-size: 12px;
+  font-family: 'Josefin Sans bold', sans-serif;
+  margin-bottom: 0px;
+}
+main .post-comment .comment-2 .wrap .icons ul li:first-child {
+  margin-left: 8px;
+  margin-top: 7px;
+  font-weight: bold;
+}
+main .post-comment .comment-2 .wrap .icons ul li:last-child {
+  margin-left: 11px;
+  margin-top: 7px;
+}
+main .post-comment .comment-2 .wrap .icons ul li .i-share {
+  margin-left: 7px;
+}
+main .post-comment .comment-3 {
+  display: flex;
+}
+main .post-comment .comment-3 .title + p {
+  font-family: 'Josefin Sans SemiBold', sans-serif;
+  font-weight: bold;
+  margin-left: 23px;
+}
+main .post-comment .comment-3 img {
+  margin-left: 51px;
+  margin-top: 35px;
+  height: 58px;
+}
+main .post-comment .comment-3 .wrap {
+  position: relative;
+}
+main .post-comment .comment-3 .wrap p:last-of-type + a {
+  font-family: 'Josefin Sans Light', sans-serif;
+  color: #9a9a9a;
+  margin-left: 225px;
+}
+main .post-comment .comment-3 .wrap .title {
+  margin-left: 20px;
+  margin-top: 28px;
+}
+main .post-comment .comment-3 .wrap .title + p:last-of-type {
+  position: relative;
+}
+main .post-comment .comment-3 .wrap .title + p:last-of-type::before {
+  content: "";
+  border-bottom: 2px solid #dddddd;
+  position: absolute;
+  width: 740px;
+  top: 33px;
+  left: -90px;
+}
+main .post-comment .comment-3 .wrap .title p {
+  font-size: 16px;
+  font-family: 'Josefin Sans bold', sans-serif;
+  margin-bottom: 0px;
+  font-weight: bold;
+  line-height: 22px;
+}
+main .post-comment .comment-3 .wrap .title p a {
+  font-size: 13px;
+  margin-left: 7px;
+}
+main .post-comment .comment-3 .wrap .title a {
+  font-size: 13px;
+  color: #b0c9c9!important;
+  text-decoration: underline;
+  margin-left: 0!important;
+}
+main .post-comment .comment-3 .wrap .icons {
+  left: 548px;
+  top: 29px;
+  position: absolute;
+}
+main .post-comment .comment-3 .wrap .icons ul {
+  margin-top: 20px;
+  display: flex;
+  list-style: none;
+}
+main .post-comment .comment-3 .wrap .icons ul li {
+  font-size: 12px;
+  font-family: 'Josefin Sans bold', sans-serif;
+  margin-bottom: 0px;
+}
+main .post-comment .comment-3 .wrap .icons ul li:first-child {
+  margin-left: 8px;
+  margin-top: 7px;
+  font-weight: bold;
+}
+main .post-comment .comment-3 .wrap .icons ul li:last-child {
+  margin-left: 11px;
+  margin-top: 7px;
+}
+main .post-comment .comment-3 .wrap .icons ul li .i-share {
+  margin-left: 7px;
+}
+main .post-comment .pagination {
+  background-color: #ffffff;
+  max-width: 840px;
+  width: 100%;
+  height: 93px;
+  margin-top: 122px;
+}
+main .post-comment .pagination nav {
+  margin-left: 257px;
+  max-width: 280px;
+  width: 100%;
+}
+main .post-comment .pagination nav ul {
+  margin-top: 0px;
+}
+main .post-comment .pagination nav ul li {
+  margin-top: 29px;
+}
+main .post-comment .pagination nav ul li:not(:first-child) {
+  margin-left: 7px;
+}
+main .post-comment .pagination nav ul li a {
+  border: none;
+  font-family: 'Josefin Sans Light', sans-serif;
+  font-size: 18px;
+  color: #7f7f7f;
+}
+main .post-comment .pagination nav ul li a:hover {
+  background-color: #ffffff;
+}
+main footer {
+  display: flex;
+  height: 180px;
+  max-width: 1125px;
+  width: 100%;
+  background-color: #2f2f2f;
+  margin: 0 auto;
+  padding-top: 68px;
+}
+main footer img {
+  margin-left: 90px;
+  margin-top: 5px;
+  height: 37px;
+  max-width: 90px;
+  width: 100%;
+}
+main footer nav {
+  display: flex;
+}
+main footer nav ul {
+  display: flex;
+  list-style: none;
+  margin-bottom: 0px;
+  margin-top: 11px;
+  font-size: 12px !important;
+  padding-left: 0px;
+  margin-left: 111px;
+}
+main footer nav ul li:not(:first-child) {
+  margin-left: 22px;
+}
+main footer nav ul a {
+  color: #838383;
+  font-family: 'Josefin Sans Light', sans-serif;
+}
+main footer nav ul a:hover {
+  color: #6c6c6c;
+}
+main footer nav ul .dropdown.open a {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  color: #838383;
+  font-size: 12px !important;
+  margin-bottom: 3px;
+  font-family: 'Josefin Sans Light', sans-serif;
+  text-align: center;
+}
+main footer nav ul .dropdown.open a:hover {
+  text-decoration: underline;
+  font-family: 'Josefin Sans Light', sans-serif;
+}
+main footer nav ul .dropdown-toggle::after {
+  display: none;
+}
+main footer .icons p {
+  color: #838383;
+  font-family: 'Josefin Sans Light', sans-serif;
+  height: 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-left: 118px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+main footer .icons ul {
+  list-style: none;
+  padding: 0px;
+  margin-left: 267px;
+  display: flex;
+}
+main footer .icons ul li:nth-child(2) {
+  margin-left: 13px;
+}
+main footer .icons ul li:nth-child(3) {
+  margin-left: 10px;
+}
+main footer .icons ul li:last-child {
+  margin-left: 10px;
+}

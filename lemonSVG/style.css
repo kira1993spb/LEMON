@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'lemonSVG';
+  src:  url('fonts/lemonSVG.eot?wp8nkq');
+  src:  url('fonts/lemonSVG.eot?wp8nkq#iefix') format('embedded-opentype'),
+    url('fonts/lemonSVG.ttf?wp8nkq') format('truetype'),
+    url('fonts/lemonSVG.woff?wp8nkq') format('woff'),
+    url('fonts/lemonSVG.svg?wp8nkq#lemonSVG') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lemonSVG' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.i-comment:before {
+  content: "\e900";
+  color: #aaa;
+}
+.i-mail:before {
+  content: "\e901";
+  color: #aaa;
+}
+.i-eye:before {
+  content: "\e902";
+  color: #aaa;
+}
+.i-facebook:before {
+  content: "\e903";
+  color: #aaa;
+}
+.i-google:before {
+  content: "\e904";
+  color: #aaa;
+}
+.i-path:before {
+  content: "\e905";
+  color: #aaa;
+}
+.i-printing:before {
+  content: "\e906";
+  color: #aaa;
+}
+.i-search:before {
+  content: "\e907";
+  color: #aaa;
+}
+.i-share:before {
+  content: "\e908";
+  color: #aaa;
+}
+.i-signal:before {
+  content: "\e909";
+  color: #aaa;
+}
+.i-thumb:before {
+  content: "\e90a";
+  color: #aaa;
+}
+.i-time:before {
+  content: "\e90b";
+  color: #aaa;
+}
+.i-twitter:before {
+  content: "\e90c";
+  color: #aaa;
+}
+.i-whatsapp:before {
+  content: "\e90d";
+  color: #aaa;
+}
