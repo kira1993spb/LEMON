@@ -769,7 +769,7 @@ main .blocks .popular-now {
   margin-top: 80px;
   max-width: 290px;
   width: 100%;
-  background-image: url(../images/coffee.png);
+  background-image: url(../../images/coffee.png);
 }
 main .blocks .popular-now h3 {
   font-family: 'Playfair Display Black', sans-serif;
